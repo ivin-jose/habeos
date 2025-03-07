@@ -1,49 +1,47 @@
 document.addEventListener("DOMContentLoaded", function () {
     const headerHTML = `
-        
-            <header id="site-header" class="header-front-page style-5">
-                <div id="site-header-inner" class="container">
-                    <div class="wrap-inner">          
-                        <div id="site-logo" class="clearfix">
-                            <div id="site-logo-inner">
-                                <a href="index.html" title="Construction" rel="home" class="main-logo">
-                                    <img src="assets/img/logo-light.png" alt="Construction" data-retina="assets/img/logo-light@2x.png" data-width="204" data-height="30">
-                                </a>
-                            </div>
+        <header id="site-header" class="header-front-page style-5">
+            <div id="site-header-inner" class="container">
+                <div class="wrap-inner">          
+                    <div id="site-logo" class="clearfix">
+                        <div id="site-logo-inner">
+                            <a href="index.html" title="Construction" rel="home" class="main-logo">
+                                <img src="assets/img/logo-light.png" alt="Construction" data-retina="assets/img/logo-light@2x.png" data-width="204" data-height="30">
+                            </a>
                         </div>
-                        <div class="mobile-button"><span></span></div>
-                        <nav id="main-nav" class="main-nav">
-                            <ul class="menu">
-                                <li class="menu-item"><a href="index.html">Home</a></li>
-                                <li class="menu-item"><a href="services.html">Services</a></li>
-                                <li class="menu-item"><a href="about.html">About Us</a></li>
-                                <li class="menu-item"><a href="projects.html">Projects</a></li>
-                                <li class="menu-item"><a href="portfolio.html">Portfolio</a></li>
-                                <li class="menu-item"><a href="contact.html">Contact</a></li>
-                            </ul>
-                        </nav>
                     </div>
+                    <div class="mobile-button"><span></span></div>
+                    <nav id="main-nav" class="main-nav">
+                        <ul class="menu">
+                            <li class="menu-item"><a href="index.html">Home</a></li>
+                            <li class="menu-item"><a href="about.html">About Us</a></li>
+                            <li class="menu-item"><a href="services.html">Services</a></li>
+                            <li class="menu-item"><a href="projects.html">Projects</a></li>
+                            <li class="menu-item"><a href="portfolio.html">Portfolio</a></li>
+                            <li class="menu-item"><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
                 </div>
-            </header>
+            </div>
+        </header>
     `;
-    
+
     document.getElementById("site-header-wrap").innerHTML = headerHTML;
 
-});
+    // **Highlight the Active Menu Item**
+    let currentURL = window.location.pathname.split("/").pop(); // Get the current page filename
+    if (currentURL === "") currentURL = "index.html"; // Default to index.html if on the root page
 
+    const menuItems = document.querySelectorAll("#main-nav .menu-item a");
 
-document.addEventListener("DOMContentLoaded", function () {
-    window.addEventListener("scroll", function () {
-        const header = document.getElementById("site-header");
-        
-        if (window.scrollY > 50) { // Change background after scrolling 50px
-            header.style.backgroundColor = "black"; // Transparent black
-            header.style.transition = "background-color 0.3s ease";
-        } else {
-            header.style.backgroundColor = "transparent"; // Revert to transparent
+    menuItems.forEach((item) => {
+        if (item.getAttribute("href") === currentURL) {
+            item.parentElement.classList.add("active"); // Add active class to the parent <li>
         }
     });
 });
+
+
 
 // <div id="site-header-wrap"></div>
 // <div id="home-footer"></div>

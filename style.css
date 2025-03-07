@@ -609,6 +609,7 @@ p.dropcap span.first-letter { font-size: 55px; float: left; color: #ffc925; text
 #site-logo .site-logo-text { color: #252525; font-size: 22px; line-height: 34px; font-weight: 700; }
 #site-logo .site-logo-text:hover { color: #ffc925; }
 
+
 .menu-has-search #site-header.style-1 #main-nav,
 .menu-has-search #site-header.style-5 #main-nav { right: 50px; }
 
@@ -622,6 +623,11 @@ p.dropcap span.first-letter { font-size: 55px; float: left; color: #ffc925; text
 .menu-has-search.menu-has-cart #site-header.style-5 #header-search { right: 66px; }
 
 .menu-has-cart #site-header.style-2 #header-search { right: 52px; }
+
+/*edited*/
+.menu-item.active a {
+    color: yellow !important; /* Highlight the active page */
+}
 
 /* Header Styles */
 #site-header.style-1 #main-nav .menu-fallback,
