@@ -16,7 +16,13 @@ document.addEventListener("DOMContentLoaded", function () {
                             <li class="menu-item"><a href="index.html">Home</a></li>
                             <li class="menu-item"><a href="about.html">About Us</a></li>
                             <li class="menu-item"><a href="services.html">Services</a></li>
-                            <li class="menu-item"><a href="projects.html">Projects</a></li>
+                            <li class="menu-item menu-item-has-children"><a href="#">Projects</a>
+                              <ul class="sub-menu">
+                                <li class="menu-item"><a href="commercial-projects.html">Commercial Projects</a></li>
+                                <li class="menu-item"><a href="residence-projects.html">Residence Projects</a></li>
+                                <li class="menu-item"><a href="resort-projects.html">Resort Projects</a></li>                         
+                              </ul>
+                            </li>
                             <li class="menu-item"><a href="portfolio.html">Portfolio</a></li>
                             <li class="menu-item"><a href="contact.html">Contact</a></li>
                         </ul>
