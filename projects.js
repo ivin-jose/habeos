@@ -62,7 +62,7 @@ const projects = [
         "description": "An AI-based system to help users plan their travel itinerary.",
         "image": "assets/img/projects/RESIDENCE-PROJECT/B&B-HOME/thumbnail.jpg",
         "image_folder" : "RESIDENCE-PROJECT/B&B-HOME",
-        "no_images" : 7
+        "no_images" : 4
     },
 
     {
@@ -84,7 +84,7 @@ const projects = [
         "description": "An AI-based system to help users plan their travel itinerary.",
         "image": "assets/img/projects/RESIDENCE-PROJECT/RESIDENCE-AT-MANGAD/thumbnail.jpg",
         "image_folder" : "RESIDENCE-PROJECT/RESIDENCE-AT-MANGAD",
-        "no_images" : 2
+        "no_images" : 11
     },
 
     {

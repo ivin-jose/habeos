@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <div id="site-logo" class="clearfix">
                         <div id="site-logo-inner">
                             <a href="index.html" title="Construction" rel="home" class="main-logo">
-                                <img src="assets/img/logo-light.png" alt="Construction" data-retina="assets/img/logo-light@2x.png" data-width="204" data-height="30">
+                                <img src="assets/img/habeos-logo2.png" alt="Construction" data-retina="assets/img/habeos-logo.png" data-width="100" data-height="100" class="logo-img">
                             </a>
                         </div>
                     </div>
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         <ul class="menu">
                             <li class="menu-item"><a href="index.html">Home</a></li>
                             <li class="menu-item"><a href="about.html">About Us</a></li>
-                            <li class="menu-item"><a href="services.html">Services</a></li>
+                            <li class="menu-item"><a href="#">Services</a></li>
                             <li class="menu-item menu-item-has-children"><a href="#">Projects</a>
                               <ul class="sub-menu">
                                 <li class="menu-item"><a href="commercial-projects.html">Commercial Projects</a></li>

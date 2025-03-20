@@ -815,6 +815,17 @@ p.dropcap span.first-letter { font-size: 55px; float: left; color: #ffc925; text
     display: flex;
     padding: 30px 10px;
 }
+
+.logo-img {
+    height: 40px;
+    width: 100px;
+    object-fit: contain;
+}
+.footer-logo-img {
+        width: 150px;
+    object-fit: cover;
+    height: 110px;
+}
 /*--edited end--*/
 
 #site-header.is-sticky:after {  opacity: 0.8; }

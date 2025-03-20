@@ -6,9 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
                     <div class="col-md-3">
                         <div class="widget widget_about margin-bottom-25">
                             <div class="margin-bottom-35">
-                                <img src="assets/img/logo-light@2x.png" width="204" height="30" alt="image" />
+                                <img src="assets/img/habeos-logo2.png" width="204" height="30" alt="image"  class="footer-logo-img"/>
                             </div>
-                            <p>Nullam vel enim risus. Integer rhoncus hendrerit sem egestas porttitor.</p>
                         </div>
                         <section class="widget widget_information">
                             <ul class="info-wrap">
