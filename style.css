@@ -826,6 +826,29 @@ p.dropcap span.first-letter { font-size: 55px; float: left; color: #ffc925; text
     object-fit: cover;
     height: 110px;
 }
+
+#instagram {
+    color: #C13584 !important;
+    font-size: 20px;
+}
+#whatsapp {
+    color: green !important;
+    font-size: 20px;
+}
+#linkedin {  
+    color: skyblue !important;
+    font-size: 20px;
+}
+#facebook {
+    color: blue !important;
+    font-size: 20px;
+}
+
+#map-frame iframe {
+    width: 100%;
+    border: 2px solid #ffc925 !important;
+}
+
 /*--edited end--*/
 
 #site-header.is-sticky:after {  opacity: 0.8; }

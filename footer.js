@@ -11,9 +11,9 @@ document.addEventListener("DOMContentLoaded", function () {
                         </div>
                         <section class="widget widget_information">
                             <ul class="info-wrap">
-                                <li class="address item">1 Beverly Hills, Los Angeles, California, 90210, United States</li>
-                                <li class="phone item">+1 (390) 379 3368, +1 (390) 379 6868</li>
-                                <li class="email item">contact@construction.com</li>
+                                <li class="address item">Kanthapuram, Unnikulam post, Calicut, India 673574</li>
+                                <li class="phone item">+91 8606 168 977, 0496 296 8977</li>
+                                <li class="email item">info@habeosbuilders.com</li>
                             </ul>
                         </section>
                     </div>
@@ -21,36 +21,22 @@ document.addEventListener("DOMContentLoaded", function () {
                         <div class="widget widget_tag_cloud">
                             <h2 class="widget-title">Popular tags</h2>
                             <div class="tagcloud">
-                                <a href="#">Architectural</a>
-                                <a href="#">Builder</a>
-                                <a href="#">Fire</a>
-                                <a href="#">Building</a>
-                                <a href="#">Garden design</a>
-                                <a href="#">Interior</a>
-                                <a href="#">Marketing events</a>
-                                <a href="#">ThemeForest</a>
-                                <a href="#">Construction</a>
-                                <a href="#">Exterior</a>
-                                <a href="#">Highway</a>
+                                <a href="#">Commercial Projects</a>
+                                <a href="#">Resort Projects</a>
+                                <a href="#">Residence Porjects</a>
+                                
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="widget widget_links">
                             <h2 class="widget-title">Useful links</h2>
-                            <ul class="links col2">
-                                <li><a href="#">Home</a></li>
-                                <li class="last"><a href="#">Help Center</a></li>
-                                <li><a href="#">Portfolio</a></li>
-                                <li class="last"><a href="#">Term of Use</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li class="last"><a href="#">About Us</a></li>
-                                <li><a href="#">News</a></li>
-                                <li class="last"><a href="#">Conditions</a></li>
+                            <ul class="">
+                                <li><a href="#"  id="whatsapp">WhatsApp</a></li>
+                                <li><a href="https://www.instagram.com/habeos__builders?igsh=b3dhcHdkZmlkNGpv" id="instagram">Instagram</a></li>
+                                <li><a href="#" id="linkedin">LinkedIn</a></li>
+                                <li><a href="#" id="facebook">Facebook</a></li>
                                 <li><a href="#">Contact</a></li>
-                                <li class="last"><a href="#">Conditions</a></li>
-                                <li><a href="#">Our Shop</a></li>
-                                <li class="last"><a href="#">Privacy Legal</a></li>
                             </ul>
                         </div>
                     </div>
@@ -59,42 +45,42 @@ document.addEventListener("DOMContentLoaded", function () {
                             <h2 class="widget-title">Instagram photos</h2>
                             <div class="instagram-wrap clearfix g10">
                                 <div class="instagram_badge_image">
-                                    <a href="#">
+                                    <a href="https://www.instagram.com/p/CUALx0YJKzB/?igsh=cGs1aXRjcmJpdmpy">
                                         <div class="item">
                                             <img src="assets/img/instagram/1.jpg" alt="image" />
                                         </div>
                                     </a>
                                 </div>
                                 <div class="instagram_badge_image">
-                                    <a href="#">
+                                    <a href="https://www.instagram.com/p/CeGBxERuaEu/?igsh=cDcwMWdreXd3MTR2">
                                         <div class="item">
                                             <img src="assets/img/instagram/2.jpg" alt="image" />
                                         </div>
                                     </a>
                                 </div>
                                 <div class="instagram_badge_image">
-                                    <a href="#">
+                                    <a href="https://www.instagram.com/p/CeIVqKrB8Cj/?igsh=dGw5NWo2NjZuaDNp">
                                         <div class="item">
                                             <img src="assets/img/instagram/3.jpg" alt="image" />
                                         </div>
                                     </a>
                                 </div>
                                 <div class="instagram_badge_image">
-                                    <a href="#">
+                                    <a href="https://www.instagram.com/p/ChuXTVlv8O5/?igsh=MXA4dG84MGo4cXU3eA==">
                                         <div class="item">
                                             <img src="assets/img/instagram/4.jpg" alt="image" />
                                         </div>
                                     </a>
                                 </div>
                                 <div class="instagram_badge_image">
-                                    <a href="#">
+                                    <a href="https://www.instagram.com/p/CuhSub1BPjk/?igsh=MXhma2lyd3YyYTFxOQ==">
                                         <div class="item">
                                             <img src="assets/img/instagram/5.jpg" alt="image" />
                                         </div>
                                     </a>
                                 </div>
                                 <div class="instagram_badge_image">
-                                    <a href="#">
+                                    <a href="https://www.instagram.com/p/CsgwCvLh48M/?igsh=ZmczNTQ2dWI2aDJ5">
                                         <div class="item">
                                             <img src="assets/img/instagram/6.jpg" alt="image" />
                                         </div>
